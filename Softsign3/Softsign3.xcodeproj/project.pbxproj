@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934CAC8114B4BE7F00E385F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934CAC8014B4BE7F00E385F8 /* UIKit.framework */; };
+		934CAC8314B4BE7F00E385F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934CAC8214B4BE7F00E385F8 /* Foundation.framework */; };
+		934CAC8514B4BE7F00E385F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934CAC8414B4BE7F00E385F8 /* CoreGraphics.framework */; };
+		934CAC8B14B4BE7F00E385F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934CAC8914B4BE7F00E385F8 /* InfoPlist.strings */; };
+		934CAC8D14B4BE7F00E385F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 934CAC8C14B4BE7F00E385F8 /* main.m */; };
+		934CAC9114B4BE7F00E385F8 /* SS3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 934CAC9014B4BE7F00E385F8 /* SS3AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		934CAC7C14B4BE7F00E385F8 /* Softsign3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Softsign3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934CAC8014B4BE7F00E385F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		934CAC8214B4BE7F00E385F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		934CAC8414B4BE7F00E385F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		934CAC8814B4BE7F00E385F8 /* Softsign3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Softsign3-Info.plist"; sourceTree = "<group>"; };
+		934CAC8A14B4BE7F00E385F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		934CAC8C14B4BE7F00E385F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		934CAC8E14B4BE7F00E385F8 /* Softsign3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Softsign3-Prefix.pch"; sourceTree = "<group>"; };
+		934CAC8F14B4BE7F00E385F8 /* SS3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS3AppDelegate.h; sourceTree = "<group>"; };
+		934CAC9014B4BE7F00E385F8 /* SS3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SS3AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934CAC7914B4BE7F00E385F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934CAC8114B4BE7F00E385F8 /* UIKit.framework in Frameworks */,
+				934CAC8314B4BE7F00E385F8 /* Foundation.framework in Frameworks */,
+				934CAC8514B4BE7F00E385F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934CAC7114B4BE7F00E385F8 = {
+			isa = PBXGroup;
+			children = (
+				934CAC8614B4BE7F00E385F8 /* Softsign3 */,
+				934CAC7F14B4BE7F00E385F8 /* Frameworks */,
+				934CAC7D14B4BE7F00E385F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934CAC7D14B4BE7F00E385F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934CAC7C14B4BE7F00E385F8 /* Softsign3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934CAC7F14B4BE7F00E385F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934CAC8014B4BE7F00E385F8 /* UIKit.framework */,
+				934CAC8214B4BE7F00E385F8 /* Foundation.framework */,
+				934CAC8414B4BE7F00E385F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		934CAC8614B4BE7F00E385F8 /* Softsign3 */ = {
+			isa = PBXGroup;
+			children = (
+				934CAC8F14B4BE7F00E385F8 /* SS3AppDelegate.h */,
+				934CAC9014B4BE7F00E385F8 /* SS3AppDelegate.m */,
+				934CAC8714B4BE7F00E385F8 /* Supporting Files */,
+			);
+			path = Softsign3;
+			sourceTree = "<group>";
+		};
+		934CAC8714B4BE7F00E385F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				934CAC8814B4BE7F00E385F8 /* Softsign3-Info.plist */,
+				934CAC8914B4BE7F00E385F8 /* InfoPlist.strings */,
+				934CAC8C14B4BE7F00E385F8 /* main.m */,
+				934CAC8E14B4BE7F00E385F8 /* Softsign3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934CAC7B14B4BE7F00E385F8 /* Softsign3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934CAC9414B4BE7F00E385F8 /* Build configuration list for PBXNativeTarget "Softsign3" */;
+			buildPhases = (
+				934CAC7814B4BE7F00E385F8 /* Sources */,
+				934CAC7914B4BE7F00E385F8 /* Frameworks */,
+				934CAC7A14B4BE7F00E385F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Softsign3;
+			productName = Softsign3;
+			productReference = 934CAC7C14B4BE7F00E385F8 /* Softsign3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934CAC7314B4BE7F00E385F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = SeriouslyRevival;
+			};
+			buildConfigurationList = 934CAC7614B4BE7F00E385F8 /* Build configuration list for PBXProject "Softsign3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 934CAC7114B4BE7F00E385F8;
+			productRefGroup = 934CAC7D14B4BE7F00E385F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934CAC7B14B4BE7F00E385F8 /* Softsign3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934CAC7A14B4BE7F00E385F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934CAC8B14B4BE7F00E385F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934CAC7814B4BE7F00E385F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934CAC8D14B4BE7F00E385F8 /* main.m in Sources */,
+				934CAC9114B4BE7F00E385F8 /* SS3AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		934CAC8914B4BE7F00E385F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934CAC8A14B4BE7F00E385F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934CAC9214B4BE7F00E385F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934CAC9314B4BE7F00E385F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934CAC9514B4BE7F00E385F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Softsign3/Softsign3-Prefix.pch";
+				INFOPLIST_FILE = "Softsign3/Softsign3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		934CAC9614B4BE7F00E385F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Softsign3/Softsign3-Prefix.pch";
+				INFOPLIST_FILE = "Softsign3/Softsign3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934CAC7614B4BE7F00E385F8 /* Build configuration list for PBXProject "Softsign3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934CAC9214B4BE7F00E385F8 /* Debug */,
+				934CAC9314B4BE7F00E385F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934CAC9414B4BE7F00E385F8 /* Build configuration list for PBXNativeTarget "Softsign3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934CAC9514B4BE7F00E385F8 /* Debug */,
+				934CAC9614B4BE7F00E385F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934CAC7314B4BE7F00E385F8 /* Project object */;
+}
